@@ -1,0 +1,219 @@
+html {
+    background-image: url(../image/paca.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-fond {
+    background-image: url(../image/paca.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+.zoomable-image {
+    display: block;
+    text-decoration: none;
+}
+
+.cliquable-image {
+    width: 100%; /* Rend l'image responsive */
+    max-width: 300px; /* Limite la largeur max */
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.cliquable-image:hover {
+    transform: scale(1.1); /* Ajoute un effet d'agrandissement au survol */
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: rgb(234, 234, 234);  
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    position: fixed;
+    top: 0em;
+    left: 0.5em;
+    z-index: 1000;
+    text-align: center; /* Centrer le texte si besoin */
+    transition: all 0.3s ease-in-out; /* Corrigé : Ajout d'une unité de temps */
+    outline: none;
+}
+
+.button:hover {
+    background-color:rgb(72, 229, 171); /* Effet au survol */
+}
+
+.button:focus,
+.button:active {
+    outline: none;
+    box-shadow: none;
+    background-color: rgb(72, 229, 171); /* Conserve la couleur initiale */
+    color: rgb(255, 254, 254); /* Garde le texte blanc au clic */
+}
+
+main, .Ferraritestarossa {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.8), /* Couche blanche semi-transparente */
+        rgba(255, 255, 255, 0.8)
+    ),
+    url(../region/italie.jpg); /* Image de fond de la section */
+    background-size: cover; /* Adapte l'image à la taille de la section */
+    background-position: center; /* Centre l'image */
+    border-radius: 10px; /* Arrondi les bords */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile */
+    max-width: 1200px;
+    margin: 20px auto; /* Centre la section */
+}
+
+section, .BMW-M3 {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.8), /* Couche blanche semi-transparente */
+        rgba(255, 255, 255, 0.8)
+    ),
+    url(../region/allemagne.jpg);
+    background-size: cover; /* Adapte l'image à la taille de la section */
+    background-position: center; /* Centre l'image */
+    border-radius: 10px; /* Arrondi les bords */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile */
+    max-width: 1200px;
+    margin: 20px auto; /* Centre la section */
+}
+   
+section, .Peugeot-205-GTI {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.8), /* Couche blanche semi-transparente */
+        rgba(255, 255, 255, 0.8)
+    ),
+    url(../region/france.jpg);
+    background-size: cover; /* Adapte l'image à la taille de la section */
+    background-position: center; /* Centre l'image */
+    border-radius: 10px; /* Arrondi les bords */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile */
+    max-width: 1200px;
+    margin: 20px auto; /* Centre la section */
+}
+
+section, .Honda-NSX {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.8), /* Couche blanche semi-transparente */
+        rgba(255, 255, 255, 0.8)
+    ),
+    url(../region/japon.jpg);
+    background-size: cover; /* Adapte l'image à la taille de la section */
+    background-position: center; /* Centre l'image */
+    border-radius: 10px; /* Arrondi les bords */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile */
+    max-width: 1200px;
+    margin: 20px auto; /* Centre la section */
+}
+
+
+section, .Renault-Clio-Williams {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.8), /* Couche blanche semi-transparente */
+        rgba(255, 255, 255, 0.8)
+    ),
+    url(../region/turquie.jpg);
+    background-size: cover; /* Adapte l'image à la taille de la section */
+    background-position: center; /* Centre l'image */
+    border-radius: 10px; /* Arrondi les bords */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre subtile */
+    max-width: 1200px;
+    margin: 20px auto; /* Centre la section */
+}
+
+strong {
+    font-size: 1.5em;
+}
+
+h1 {
+    color: rgba(29, 220, 106, 0.8);
+    text-align: center;
+    background: linear-gradient(70deg, rgb(106, 153, 119), rgb(74, 28, 28));
+    font-size: 2.5em;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.25em;
+    color: rgb(28, 67, 105);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: rgba(8, 8, 90, 0.8);
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h4 {
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+table {
+    width: 100%; /* Rend le tableau responsive */
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #e28787;
+    padding: 15px; /* Ajuste les marges internes */
+    text-align: center;
+    color: rgb(15, 76, 38);
+    font-size: 1em;
+}
+
+th {
+    background-color: #6b4040;
+    font-weight: bold; /* Corrige l'erreur "font-weight: '100'" */
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(101, 52, 139);
+}
+
+a img:hover {
+    transform: scale(1.05); /* Zoom sur les images au survol */
+    transition: transform 0.3s ease;
+    
+}
+ 
+.Fin { 
+    text-decoration: none;
+  color: rgb(101, 52, 139);
+  font-size: medium;
+  margin: 10px;
+  font-size: 20px;
+}

@@ -1,0 +1,165 @@
+html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    justify-content: center;
+}
+
+img {
+    bottom: 100px;
+    height: auto;
+    border-radius: 300px;
+}
+
+header img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+main, h2 {
+    flex: 1;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.table-container {
+    background-color: rgba(0, 0, 255, 0.441);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+h1 {
+    color: #ff8c00;
+}
+
+h2, h3, p {
+    margin: 0;
+    padding: 5px 0;
+    color: #e6e6e6;
+}
+
+table {
+    border: 2px solid #e9e0e0;
+    border-collapse: collapse;
+    width: 200px;
+    margin: 0 auto;
+}
+
+td, th {
+    border: 2px solid #e6e6e6;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+tr:nth-child(even) {
+    background-color: #333333;
+}
+
+tr:nth-child(odd) {
+    background-color: #2a2a2a;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1e90ff;
+    margin: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+footer img {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    background-color: #444444;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.container img {
+    width: 80%;
+    height: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.prothèses{
+color:  #ff8c00;
+text-decoration: none;
+}
+
+.color{
+    text-align: center;
+    background-color: #1e90ff;
+    font-size: 40px;
+}
+
+.centre{
+ text-align: center;
+}
+
+.presantation{
+    text-align: center;
+    color: black;
+    background-color: #1e8fff8f;
+    padding: 30px;
+}
+
+button{
+    border-radius: 50px;
+    font-size: 20px;
+    background-color:#1e90ff;
+    color: orange;
+}

@@ -1,0 +1,242 @@
+               
+                                                      /* position: absolute; =  active le positionnement */
+                                 /*top: 10px; =  en haut*/
+                                         /* left: 10px;= /* a gauche */
+                                                   /*right = droite */ 
+                                                       /*bottom = en bas */
+
+
+                                                      
+.animated-background {
+background-image: url('../image/paca.jpg'); /* Remplacez par le chemin de votre image */
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+animation: moveBackground 10s linear infinite;
+}
+@keyframes moveBackground {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 50% 50%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+
+.position{
+    position: absolute;
+    top: 20%;
+    bottom: 10%;
+}
+.position1 {
+    position: absolute;
+    top: 80%;
+    bottom: 70%;
+    left: 10%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    text-align: center;
+}
+.zommable-image {
+    display: block;
+    text-decoration: none;
+}
+.cliquable-image {
+    width: 300px; /* Largeur de l'image */
+    height: auto; /* Conserve les proportions de l'image */
+    transition: transform 0.3s ease; /* Animation pour le zoom */
+    cursor: pointer; /* Change le curseur au survol */
+}
+
+.clickable-image:hover {
+    transform: scale(1.1); /* Agrandissement de 10% au survol */
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: rgb(234, 234, 234);  
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    position: fixed;
+    top: 0em;
+    left: 0.5em;
+    z-index: 1000;
+    text-align: center; /* Centrer le texte si besoin */
+    transition: all 0.3s ease-in-out; /* Corrigé : Ajout d'une unité de temps */
+    outline: none;
+}
+
+.button:hover {
+    background-color:rgb(72, 229, 171); /* Effet au survol */
+}
+ /* bouton simple */
+   /* .button:focus,
+    .button:active {
+        
+        border-radius: 50%;
+        outline: none;
+        box-shadow: none;
+        background-color: rgb(72, 229, 171); /* Conserve la couleur initiale */
+       /* color: rgb(255, 254, 254); /* Garde le texte blanc au clic }*/ 
+                
+
+        /* bouton rond */
+        .button {
+            display: inline-block;
+            width: 60px; /* Taille du bouton */
+            height: 60px; /* Doit être égal à width pour être rond */
+            background-color: rgb(72, 229, 171); /* Couleur du bouton */
+            color: white; /* Couleur du texte */
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 60px; /* Centre le texte verticalement */
+            border: none;
+            border-radius: 50%; /* REND LE BOUTON ROND */
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .button:hover {
+            background-color: rgb(52, 199, 151); /* Effet au survol */
+        }
+        
+        .button:focus,
+        .button:active {
+            outline: none;
+            box-shadow: none;
+            background-color: rgb(72, 229, 171); /* Conserve la couleur initiale */
+            color: rgb(255, 254, 254); /* Garde le texte blanc au clic */
+        }
+        
+
+
+
+
+.haut-de-page{
+    background:linear-gradient(90deg, rgb(231, 56, 56), rgb(71, 193, 105));
+   color: white;
+   padding: 15px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.retour, .element-droit, .centre {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3 ease;
+}
+
+.retour:hover, .element-droit:hover, .centre:hover {
+    color: black;
+} 
+
+.centre {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.conteneur {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+table {
+    width: 100px;
+    border-collapse: collapse;
+    margin:auto
+}
+th, td {
+    border: 10px solid #5a4d4d;
+    padding: 18px;
+    text-align: left;
+    background-position:center;
+    color: rgb(109, 183, 220);
+}
+td {
+    background-color: #6c187a8c;
+    font-weight: bold;
+}
+th {
+    background-color: #000000;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #e7e7e7;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(79, 44, 156);
+    text-decoration: double;
+    background:linear-gradient(90deg, rgb(231, 56, 56), rgb(71, 193, 105))
+    
+}
+p {
+    color: rgb(255, 255, 255);
+}
+h2 {
+    text-align: center;
+    text-decoration: none; color: rgb(0, 0, 0);
+   
+}
+li {
+    position: center;
+}
+
+h3 {
+    color:#0e02f1;
+    background-color: #13cd4272;
+}
+
+h4 {
+    color: #05154e;
+    background-color: #7aa5ddb5;
+}
+a {
+    text-decoration: none;
+    color: rgb(101, 52, 139);
+}
+
+a img:hover {
+    transform: scale(1.05); /* Zoom sur les images au survol */
+    transition: transform 0.3s ease;
+    
+}
+ 
+.Fin { 
+    text-decoration: none;
+  background: linear-gradient(90deg, rgb(231, 56, 56), rgb(71, 193, 105));
+  color: rgb(101, 52, 139);
+  font-size: medium;
+  margin: 10px;
+  font-size: 20px;
+}

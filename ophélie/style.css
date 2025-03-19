@@ -1,0 +1,190 @@
+html{
+    background-color: white;
+}
+body{
+    background-color: rgba(16, 2, 126, 0.675);
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+} 
+
+footer{
+    background-color: #333;
+    padding: 50px;
+    color: white;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links img{
+    width: 20px;
+    height: 20px;
+}
+
+.haut-de-page {
+    background-color: rgb(177, 166, 255);
+    text-align: left;
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+
+.header-link a {
+    text-decoration: none;
+    margin-right: 0 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.Mariage {
+    background: linear-gradient(#e445b4c0,#6a5ecd);
+}
+.Evenement {
+    background: linear-gradient(#e445b4c1,#6a5ecd);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.Accueil{
+    padding: 5px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: wheat;
+    background-color: #000000b4;
+}
+.contacte{
+    padding: 5px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    color: wheat;
+    background-color: #000000b4;
+}
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 70%;
+    margin: 0 auto;
+    height: 70vh;
+}
+
+.presentation img{
+    width: 800px;
+    height: auto;
+}
+
+.presentation .texte{
+    max-width: 700px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.menus-fr {
+    background-image: url(image/france.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.Titre{
+    color: rgb(237, 157, 157);
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.Texte {
+    color: black;
+    font-size: 35px;
+    font-family: fantasy;
+}
+
+.titre1 {
+    color: rgb(59, 46, 244);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texte1{
+    color: rgb(0, 21, 248);
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titre2{
+    color: rgba(0, 253, 0, 0.845);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texte2{
+    color: rgb(128, 35, 35);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titre3 {
+    color: rgb(25, 25, 231);
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.texte3 {
+    color:rgba(250, 110, 95, 0.882);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Végétarien{
+    background-image: url(image/Végétarien.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.Méditerranéen{
+    background-image: url(image/Méditerranéen1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.Terre-et-Mer {
+    background-image: url(image/Terre\ &\ Mer1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.even{
+    background-color: black;
+}
